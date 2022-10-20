@@ -19,16 +19,41 @@
     width: 15%;
     height: 20%;
     bottom: 0;
-    animation: pipe-animation 1.4s infinite;
+    animation: pipe-animation 1.2s infinite linear;
+}
+
+.mario {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    bottom: 0;
+}
+
+.jump {
+    animation: jump 800ms ease-out;
 }
 
 /* Keyframes de animações */
 @keyframes pipe-animation {
     from {
-        right: -5%;
+        right: -15%;
     }
 
     to {
         right: 105%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0%;
+    }
+
+    50% {
+        bottom: 35%;
+    }
+
+    100% {
+        bottom: 0%;
     }
 }
