@@ -16,12 +16,12 @@ const loop = setInterval(() => {
         // offsetBottom não exis te, e assim é possível pegar qualquer elemento
         const marioPosition = window.getComputedStyle(marioCharacter).bottom.replace('px','');
 
-        if(pipePosition > 0 && pipePosition <= 110 && marioPosition < 110.0){
+        if(pipePosition > 0 && pipePosition <= 100 && marioPosition < 100){
             pipeProp.style.animation = 'none'
             pipeProp.style.left = `${pipePosition}px`;
             marioCharacter.style.animation = 'none'
             marioCharacter.style.bottom = `${marioPosition}px`;
-            gameOver.style.bottom = `${marioPosition - 20}px`;
+            gameOver.style.bottom = `${marioPosition - 30}px`;
 
             marioCharacter.classList.add('hidden')
             gameOver.classList.remove('hidden')
