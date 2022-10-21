@@ -17,7 +17,7 @@
 
 .pipe {
     position: absolute;
-    width: 15%;
+    width: 80px;
     height: 20%;
     bottom: 0;
     animation: pipe-animation 1.2s infinite linear;
@@ -25,14 +25,14 @@
 
 .mario {
     position: absolute;
-    width: 20%;
+    width: 140px;
     height: 30%;
     bottom: 0;
 }
 
 .clouds{
     position: absolute;
-    width: 50%;
+    width: 200px;
     top: 10%;
     animation: pipe-animation 10s infinite linear;
 }
@@ -43,7 +43,7 @@
 
 .game-over{
     position: absolute;
-    width: 12%;
+    width: 70px;
     padding: 0;
     margin: 30px;
     animation: Death 2.4s ease-out;
