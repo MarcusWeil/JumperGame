@@ -15,6 +15,20 @@
     background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
+.score h3{
+    position: absolute;
+    font-family: 'Bungee', cursive, sans-serif;
+    right: 1%
+}
+
+.score h4{
+    position: absolute;
+    font-family: 'Bungee', cursive, sans-serif;
+    font-size: 20px;
+    right: 1%;
+    top: 5%;
+}
+
 .pipe {
     position: absolute;
     width: 80px;
@@ -46,7 +60,7 @@
     width: 70px;
     padding: 0;
     margin: 30px;
-    animation: Death 2.4s ease-out;
+    animation: Death 2.4s ease-out forwards;
 }
 
 .hidden{
