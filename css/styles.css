@@ -33,6 +33,17 @@
     animation: jump 800ms ease-out;
 }
 
+.game-over{
+    position: absolute;
+    width: 12%;
+    padding: 0;
+    margin: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
 /* Keyframes de animações */
 @keyframes pipe-animation {
     from {
